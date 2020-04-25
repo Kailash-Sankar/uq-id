@@ -2,6 +2,8 @@
 
 A lightweight unique id generator
 
+    const { shortId, uniqueId, complexId, generateId } = require("uq-id");
+
     # generate a short id,
     # params
     # size: int, max allowed is 10
