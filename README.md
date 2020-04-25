@@ -18,10 +18,12 @@ A lightweight unique id generator
     # chartset containts a...z,A...Z,0...9 and symbols
     # params
     # size - int, default 10
-    console.log("complexId", complexId());
+    complexId();
+    output: "q5yTPo&oPUd"
 
     # generate a custom id based on input size and chartset
     # params
     # size - int, default 5
     # charset - array of characters, defaults to a...z,A...Z,0...9
-    console.log("generateId", generateId());
+    generateId();
+    output: "aSzxMCbOo6v"
