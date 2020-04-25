@@ -1,0 +1,28 @@
+{
+  "name": "uq-id",
+  "version": "0.0.1",
+  "description": "A lightweight unique id generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kailash-Sankar/uq-id.git"
+  },
+  "keywords": [
+    "unique",
+    "random",
+    "light",
+    "id"
+  ],
+  "author": "Kailash Sankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kailash-Sankar/uq-id/issues"
+  },
+  "homepage": "https://github.com/Kailash-Sankar/uq-id#readme",
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
+}
