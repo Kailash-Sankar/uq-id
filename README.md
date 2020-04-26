@@ -1,6 +1,7 @@
 # uq-id
 
 ![npm bundle size](https://img.shields.io/bundlephobia/min/uq-id)
+![npm](https://img.shields.io/npm/v/uq-id)
 
 A lightweight unique id generator
 
