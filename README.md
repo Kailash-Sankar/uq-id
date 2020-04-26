@@ -1,4 +1,4 @@
-# ud-id
+# uq-id
 
 A lightweight unique id generator
 
@@ -12,7 +12,8 @@ A lightweight unique id generator
 
     # generate a unique id, using epoch + short id
     # params
-    # size: int, default 5, max allowed is 10 (indicates size of tailend string and not the output)
+    # size: int, default 5, max allowed is 10
+    # (indicates size of tailend string and not the output)
     uniqueId();
     output: "1587843550015-dxp6r"
 
@@ -23,9 +24,9 @@ A lightweight unique id generator
     complexId();
     output: "q5yTPo&oPUd"
 
-    # generate a custom id based on input size and chartset
+    # generate a custom id based on input size and chartset (url friendly)
     # params
-    # size - int, default 5
-    # charset - array of characters, defaults to a...z,A...Z,0...9
+    # size - int, default 10
+    # charset - string of characters, defaults to a...z,A...Z,0...9
     generateId();
     output: "aSzxMCbOo6v"
