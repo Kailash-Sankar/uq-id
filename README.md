@@ -1,7 +1,11 @@
 # uq-id
 
+![npm bundle size](https://img.shields.io/bundlephobia/min/uq-id)
+
 A lightweight unique id generator
 
+    npm i uq-id
+    
     const { shortId, uniqueId, complexId, generateId } = require("uq-id");
 
     # generate a short id,
