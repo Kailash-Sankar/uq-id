@@ -17,21 +17,27 @@ function testLoop(fn, size, verifySize) {
 }
 
 test("short id", () => {
-  expect(shortId(5)).toBeTruthy();
+  expect(shortId()).toBeTruthy();
   testLoop(shortId, 5);
 });
 
 test("unique id", () => {
-  expect(uniqueId(5)).toBeTruthy();
+  expect(uniqueId()).toBeTruthy();
   testLoop(uniqueId, 5, 19);
 });
 
 test("generateId id", () => {
-  expect(generateId(10)).toBeTruthy();
+  expect(generateId()).toBeTruthy();
   testLoop(generateId, 10);
 });
 
 test("complex id", () => {
-  expect(complexId(10)).toBeTruthy();
+  expect(complexId()).toBeTruthy();
   testLoop(complexId, 10);
+});
+
+test("custom: OTP", () => {
+  const out = generateId(4, "0123456789");
+  expect(out).toHaveLength(4);
+  expect(Number(out)).not.toBeNaN();
 });

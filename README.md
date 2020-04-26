@@ -30,3 +30,8 @@ A lightweight unique id generator
     # charset - string of characters, defaults to a...z,A...Z,0...9
     generateId();
     output: "aSzxMCbOo6v"
+
+    # custom use cases
+    # generate an otp like id
+    generateId(4, "0123456789")
+    output: "6776"
