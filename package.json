@@ -14,7 +14,10 @@
     "unique",
     "random",
     "light",
-    "id"
+    "id",
+    "password",
+    "otp",
+    "secret"
   ],
   "author": "Kailash Sankar",
   "license": "ISC",
